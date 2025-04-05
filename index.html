@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Kumar Gupta - Creative Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand"><span>Portfolio</span></div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container" data-speed="0.5">
+                <div class="hero-image-wrapper">
+                    <img src="4.jpg" alt="Ashish Kumar Gupta" class="hero-image">
+                </div>
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            <div class="hero-text-content">
+                <h1 class="glitch-text" data-text="Ashish Kumar Gupta">Ashish Kumar Gupta</h1>
+                <p class="hero-subtitle">Web Developer & Designer</p>
+                <div class="hero-social-links">
+                    <a href="https://github.com/Ghost-Ashish" target="_blank" class="hero-social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashish-kumar-gupta-a15382326/" target="_blank" class="hero-social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/the_axhish?igsh=MWVqMTlvY2RhcHJkMA==" target="_blank" class="hero-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">About Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2 class="section-title" data-text="About Me">About Me</h2>
+        </div>
+        
+        <!-- About Section Tabs -->
+        <div class="about-tabs">
+            <div class="about-tab-links">
+                <button class="about-tab-btn active" data-about-tab="bio">Biography</button>
+                <button class="about-tab-btn" data-about-tab="experience">Experience</button>
+                <button class="about-tab-btn" data-about-tab="education">Education</button>
+            </div>
+            
+            <div class="about-tab-content">
+                <!-- Bio Tab -->
+                <div class="about-tab-pane active" id="bio">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p class="reveal-text">I'm a passionate Full Stack Developer and UI Designer with a keen eye for detail and a love for creating seamless user experiences. I blend creativity with technical expertise to build innovative digital solutions.</p>
+                            <div class="skills-container">
+                                <div class="skill-item" data-skill="Frontend">
+                                    <div class="skill-progress" data-percentage="90">
+                                        <span class="skill-title">Frontend Development</span>
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="Backend">
+                                    <div class="skill-progress" data-percentage="85">
+                                        <span class="skill-title">Backend Development</span>
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="UI/UX">
+                                    <div class="skill-progress" data-percentage="80">
+                                        <span class="skill-title">UI/UX Design</span>
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Tab -->
+                <div class="about-tab-pane" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Present</div>
+                            <div class="timeline-content">
+                                <h3>Aspiring Web Developer</h3>
+                                <p>Seeking Opportunities</p>
+                                <ul>
+                                    <li>Currently seeking opportunities to apply my skills in a professional environment</li>
+                                    <li>Always ready for learning with hard work and self-passion</li>
+                                    <li>Dedicated to continuous improvement through self-study and practice</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Ongoing</div>
+                            <div class="timeline-content">
+                                <h3>Self-Taught Developer</h3>
+                                <p>Personal Journey</p>
+                                <ul>
+                                    <li>Building personal projects to strengthen my technical skills</li>
+                                    <li>Learning modern web technologies through online courses and tutorials</li>
+                                    <li>Participating in coding challenges to enhance problem-solving abilities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">Skills & Qualities</div>
+                            <div class="timeline-content">
+                                <h3>Professional Attributes</h3>
+                                <p>My Approach to Work</p>
+                                <ul>
+                                    <li>Strong passion for technology and creating engaging user experiences</li>
+                                    <li>Quick learner with a growth mindset and adaptability to new technologies</li>
+                                    <li>Detail-oriented with excellent time management and organizational skills</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education Tab -->
+                <div class="about-tab-pane" id="education">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Technology</h3>
+                                <p>University of Lucknow</p>
+                                <ul>
+                                    <li>Currently pursuing BTech degree</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2022 - 2024</div>
+                            <div class="timeline-content">
+                                <h3>Class XII</h3>
+                                <p>Senior Secondary Education</p>
+                                <ul>
+                                    <li>Graduated with 83% marks in 2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">2022</div>
+                            <div class="timeline-content">
+                                <h3>Class X</h3>
+                                <p>Secondary Education</p>
+                                <ul>
+                                    <li>Graduated with 90% marks in 2022</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2 class="section-title" data-text="My Skills">My Skills</h2>
+        </div>
+        
+        <!-- Skills Categories -->
+        <div class="skills-detailed">
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h3>HTML5</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                        <p class="skill-percentage">85%</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h3>CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%"></div>
+                        </div>
+                        <p class="skill-percentage">80%</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%"></div>
+                        </div>
+                        <p class="skill-percentage">70%</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%"></div>
+                        </div>
+                        <p class="skill-percentage">75%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Additional Skills Tags -->
+        <div class="other-skills">
+            <h3>Currently Learning</h3>
+            <div class="tags-container">
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">Web Animations</span>
+                <span class="skill-tag">UI Design Basics</span>
+                <span class="skill-tag">Problem Solving</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title" data-text="My Projects">My Projects</h2>
+        </div>
+        
+        <!-- Project Section Tabs -->
+        <div class="projects-tabs">
+            <div class="projects-tab-links">
+                <button class="project-tab-btn active" data-project-tab="all">All Projects</button>
+                <button class="project-tab-btn" data-project-tab="web-dev">Web Development</button>
+                <button class="project-tab-btn" data-project-tab="ui-design">UI/UX Design</button>
+            </div>
+            
+            <div class="projects-tab-content">
+                <!-- All Projects Tab -->
+                <div class="project-tab-pane active" id="all">
+                    <div class="projects-grid">
+                        <div class="project-item" data-category="web-dev">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Amazon Frontend Clone">
+                                <div class="project-overlay">
+                                    <h3>Amazon Frontend Clone</h3>
+                                    <p>HTML & CSS</p>
+                                    <a href="https://ghost-ashish.github.io/Amazon-/" target="_blank" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-category="ui-design">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                                <div class="project-overlay">
+                                    <h3>Project Two</h3>
+                                    <p>UI/UX Design</p>
+                                    <a href="#" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-category="web-dev">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                                <div class="project-overlay">
+                                    <h3>Project Three</h3>
+                                    <p>Full Stack Development</p>
+                                    <a href="#" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Development Tab -->
+                <div class="project-tab-pane" id="web-dev">
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Amazon Frontend Clone">
+                                <div class="project-overlay">
+                                    <h3>Amazon Frontend Clone</h3>
+                                    <p>HTML & CSS</p>
+                                    <a href="https://ghost-ashish.github.io/Amazon-/" target="_blank" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                                <div class="project-overlay">
+                                    <h3>Project Three</h3>
+                                    <p>Full Stack Development</p>
+                                    <a href="#" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- UI/UX Design Tab -->
+                <div class="project-tab-pane" id="ui-design">
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                                <div class="project-overlay">
+                                    <h3>Project Two</h3>
+                                    <p>UI/UX Design</p>
+                                    <a href="#" class="project-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2 class="section-title" data-text="Contact">Contact</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>ashishkumargupta77538@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 7080809081</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Lucknow, India</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" required>
+                    <label>Your Name</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" required>
+                    <label>Your Email</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <textarea required></textarea>
+                    <label>Your Message</label>
+                    <span class="focus-border"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/Ghost-Ashish" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ashish-kumar-gupta-a15382326/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/the_axhish?igsh=MWVqMTlvY2RhcHJkMA==" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Contact</a>
+        </div>
+        <p>&copy; 2025 Ashish Kumar Gupta. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
